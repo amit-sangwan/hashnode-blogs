@@ -11,13 +11,11 @@ tags: github, git, github-actions-1, gitcommands, merging
 
 ---
 
-## **🚀 The Big Picture: What Are We Doing?**
+## **The Big Picture: What Are We Doing?**
 
 In this blog, you’ll walk through a **real-world Git workflow** designed for efficient branch management in collaborative projects. The goal is to **bring an outdated release branch in sync** with the latest production code, cleanly apply the changes, and push it to Gerrit for review.
 
----
-
-## **💡 Thinking Like a Pro**
+## **Thinking Like a Pro**
 
 When working with Git, a **tech professional’s workflow** typically follows a logical and structured process. Here’s how you’d naturally approach this in your day-to-day work:
 
