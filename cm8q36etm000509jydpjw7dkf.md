@@ -12,13 +12,13 @@ tags: aws
 [  
 ](https://hashnode.com/@amit-sangwan)**Identity and Access Management (IAM)**
 
-### ✅ **1\. What is IAM?**
+### **1\. What is IAM?**
 
 AWS Identity and Access Management (**IAM**) is a global AWS service that allows you to securely control access to AWS services and resources.
 
-### 🔥 **2\. Key IAM Components**
+### **2\. Key IAM Components**
 
-✅ **IAM Users:**
+**IAM Users:**
 
 * Individual AWS accounts with unique credentials.
     
@@ -27,21 +27,21 @@ AWS Identity and Access Management (**IAM**) is a global AWS service that allows
 * Assigned specific permissions using **policies**.
     
 
-✅ **IAM Groups:**
+**IAM Groups:**
 
 * Collections of IAM users with shared permissions.
     
 * Easier management by applying policies at the group level.
     
 
-✅ **IAM Roles:**
+**IAM Roles:**
 
 * **Temporary permissions** for AWS services or users.
     
 * Used for EC2 instances, Lambda functions, and cross-account access.
     
 
-✅ **IAM Policies:**
+**IAM Policies:**
 
 * JSON documents defining **permissions**.
     
@@ -61,7 +61,7 @@ AWS Identity and Access Management (**IAM**) is a global AWS service that allows
 }
 ```
 
-✅ **IAM Best Practices:**
+**IAM Best Practices:**
 
 * **Enable MFA** (Multi-Factor Authentication) for added security.
     
@@ -74,72 +74,72 @@ AWS Identity and Access Management (**IAM**) is a global AWS service that allows
 
 ---
 
-## ⚙️ **Amazon Elastic Compute Cloud (EC2)**
+## **Amazon Elastic Compute Cloud (EC2)**
 
-### 🔥 **1\. What is Amazon EC2?**
+### **1\. What is Amazon EC2?**
 
 Amazon EC2 (**Elastic Compute Cloud**) provides resizable compute capacity in the AWS cloud. It offers **virtual servers** (instances) to run applications.
 
-### ✅ **2\. EC2 Instance Types**
+### **2\. EC2 Instance Types**
 
-✅ **General Purpose:** Balanced compute, memory, and networking.
+**General Purpose:** Balanced compute, memory, and networking.
 
 * Example: `t2.micro` (Free tier eligible).
     
 
-✅ **Compute Optimized:** For CPU-intensive tasks.
+**Compute Optimized:** For CPU-intensive tasks.
 
 * Example: `c5.4xlarge`.
     
 
-✅ **Memory Optimized:** For memory-intensive applications.
+**Memory Optimized:** For memory-intensive applications.
 
 * Example: `r5.large`.
     
 
-✅ **Storage Optimized:** High I/O performance.
+**Storage Optimized:** High I/O performance.
 
 * Example: `i3.8xlarge`.
     
 
-### 🔥 **3\. EC2 Purchasing Options**
+### **3\. EC2 Purchasing Options**
 
-✅ **On-Demand:**
+**On-Demand:**
 
 * Pay as you go.
     
 * Ideal for **short-term workloads**.
     
 
-✅ **Reserved Instances:**
+**Reserved Instances:**
 
 * 1 to 3-year commitment.
     
 * Up to **72% discount** over On-Demand.
     
 
-✅ **Spot Instances:**
+**Spot Instances:**
 
 * Uses spare AWS capacity.
     
 * Up to **90% discount**, but can be terminated anytime.
     
 
-✅ **Dedicated Hosts:**
+**Dedicated Hosts:**
 
 * Physical servers dedicated to your use.
     
 * Ideal for **compliance and licensing**.
     
 
-✅ **Capacity Reservation:**
+**Capacity Reservation:**
 
 * Reserve compute capacity in a specific **AZ**.
     
 * No discount, pay full On-Demand rate.
     
 
-### 🔥 **4\. EC2 Security Groups**
+### **4\. EC2 Security Groups**
 
 * **Acts as a firewall** for your instances.
     
@@ -148,7 +148,7 @@ Amazon EC2 (**Elastic Compute Cloud**) provides resizable compute capacity in th
 * Only **allow rules** are permitted.
     
 
-✅ **Common Ports:**
+**Common Ports:**
 
 * `22`: SSH (Linux access).
     
@@ -159,18 +159,18 @@ Amazon EC2 (**Elastic Compute Cloud**) provides resizable compute capacity in th
 * `3389`: RDP (Windows remote access).
     
 
-### 🔥 **5\. AMI (Amazon Machine Image)**
+### **5\. AMI (Amazon Machine Image)**
 
 **AMI** is a pre-configured template containing OS, application server, and applications.
 
-✅ **AMI Features:**
+**AMI Features:**
 
 * **Faster boot time** (pre-packaged software).
     
 * Can be **copied across regions**.
     
 
-✅ **AMI Types:**
+**AMI Types:**
 
 * **Public AMI:** AWS-provided images.
     
@@ -179,7 +179,7 @@ Amazon EC2 (**Elastic Compute Cloud**) provides resizable compute capacity in th
 * **Marketplace AMI:** Third-party images.
     
 
-✅ **AMI Creation Process:**
+**AMI Creation Process:**
 
 1. Launch and customize an EC2 instance.
     
@@ -190,7 +190,7 @@ Amazon EC2 (**Elastic Compute Cloud**) provides resizable compute capacity in th
 4. Use AMI to launch instances.
     
 
-✅ **EC2 Image Builder:**
+**EC2 Image Builder:**
 
 * Automates AMI creation and testing.
     
@@ -203,13 +203,13 @@ Amazon EC2 (**Elastic Compute Cloud**) provides resizable compute capacity in th
 
 ---
 
-## 💾 **EC2 Instance Storage**
+## **EC2 Instance Storage**
 
-### ✅ **1\. EBS (Elastic Block Store)**
+### **1\. EBS (Elastic Block Store)**
 
 **EBS Volumes** are network-attached storage drives used with EC2 instances. They provide **persistent storage** even after the instance is terminated.
 
-✅ **EBS Features:**
+**EBS Features:**
 
 * **Network drive** (not physically attached).
     
@@ -222,14 +222,14 @@ Amazon EC2 (**Elastic Compute Cloud**) provides resizable compute capacity in th
 * **Billed** for the entire provisioned capacity.
     
 
-✅ **EBS Example:**
+**EBS Example:**
 
 ```bash
 AZ1: EBS → Instance A  
 AZ2: EBS Snapshot → Move to AZ2 → Attach to Instance B
 ```
 
-✅ **EBS Delete on Termination:**
+**EBS Delete on Termination:**
 
 * **Root volume** deleted by default on termination.
     
@@ -238,7 +238,7 @@ AZ2: EBS Snapshot → Move to AZ2 → Attach to Instance B
 * You can modify this setting to **preserve data** after termination.
     
 
-✅ **EBS Snapshots:**
+**EBS Snapshots:**
 
 * **Point-in-time backup** of an EBS volume.
     
@@ -247,21 +247,21 @@ AZ2: EBS Snapshot → Move to AZ2 → Attach to Instance B
 * Can be **moved across AZs or regions**.
     
 
-✅ **EBS Snapshot Archive:**
+**EBS Snapshot Archive:**
 
 * **75% cheaper** storage tier.
     
 * Restores take **24-72 hours**.
     
 
-✅ **Recycle Bin for EBS Snapshots:**
+**Recycle Bin for EBS Snapshots:**
 
 * Retains deleted snapshots.
     
 * **Retention period:** 1 day to 1 year.
     
 
-### 🔥 **2\. EC2 Instance Store**
+### **2\. EC2 Instance Store**
 
 * **High-performance hardware disk** attached directly to EC2.
     
@@ -278,7 +278,7 @@ AZ2: EBS Snapshot → Move to AZ2 → Attach to Instance B
 * **User-managed** backups and replication.
     
 
-### 🔥 **3\. EFS (Elastic File System)**
+### **3\. EFS (Elastic File System)**
 
 * **Managed NFS** that can be mounted on **100s of EC2 instances**.
     
@@ -289,7 +289,7 @@ AZ2: EBS Snapshot → Move to AZ2 → Attach to Instance B
 * **Pay-per-use** pricing model.
     
 
-✅ **EFS Infrequent Access (EFS-IA):**
+**EFS Infrequent Access (EFS-IA):**
 
 * Storage tier for **rarely accessed files**.
     
@@ -302,9 +302,9 @@ AZ2: EBS Snapshot → Move to AZ2 → Attach to Instance B
 
 ---
 
-## 🔥 **Shared Responsibility Model**
+## **Shared Responsibility Model**
 
-✅ **AWS Responsibilities:**
+**AWS Responsibilities:**
 
 * **Infrastructure Security:** Global security, physical hardware, and availability.
     
@@ -313,7 +313,7 @@ AZ2: EBS Snapshot → Move to AZ2 → Attach to Instance B
 * **Networking:** Isolated VPC, firewall configurations, and DDoS protection.
     
 
-✅ **User Responsibilities:**
+**User Responsibilities:**
 
 * **IAM Management:** User roles, permissions, and MFA.
     
@@ -326,7 +326,7 @@ AZ2: EBS Snapshot → Move to AZ2 → Attach to Instance B
 
 ---
 
-## ✅ **Key Takeaways**
+## **Key Takeaways**
 
 1. **IAM:** Secure access control with **users, groups, roles, and policies**.
     
