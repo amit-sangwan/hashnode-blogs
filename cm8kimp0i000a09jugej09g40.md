@@ -40,11 +40,11 @@ When working with Git, a **tech professional’s workflow** typically follows a 
 9. **You visualize and verify the history** → Use Git logs and diffs to confirm everything.
     
 
-✅ This step-by-step flow reflects how **tech professionals** intuitively handle Git operations in real-world scenarios.
+This step-by-step flow reflects how **tech professionals** intuitively handle Git operations in real-world scenarios.
 
 ---
 
-## **🔥 Scenario 1: Real-World Scenario**
+## **Scenario 1: Real-World Scenario**
 
 Imagine you're working on a project called `Automation`, which has the following branches:
 
@@ -75,7 +75,7 @@ Imagine you're working on a project called `Automation`, which has the following
 
 ---
 
-### **🔥 The Workflow – Step by Step**
+### **The Workflow – Step by Step**
 
 ### **1\. Switch to the Release Branch**
 
@@ -127,7 +127,7 @@ git rebase origin/master
 * It avoids unnecessary merge commits.
     
 
-✅ **Conflict Resolution During Rebase:**  
+**Conflict Resolution During Rebase:**  
 If you encounter a conflict:
 
 ```bash
@@ -216,17 +216,17 @@ git log --all --graph --pretty=format:'%h %ad | %s%d [%an]' --date=short
 
 ### **What Happens Internally with Rebase, Merge, Fetch, and Cherry-Pick?**
 
-✅ **Rebase:** Moves your branch’s commits **on top of another branch** (like `master`), creating a cleaner and linear history.
+**Rebase:** Moves your branch’s commits **on top of another branch** (like `master`), creating a cleaner and linear history.
 
-✅ **Merge:** Combines the history of two branches, creating a **merge commit** that contains both histories.
+**Merge:** Combines the history of two branches, creating a **merge commit** that contains both histories.
 
-✅ **Fetch:** Downloads the latest changes from the remote repository but **does not apply them** to your current branch.
+**Fetch:** Downloads the latest changes from the remote repository but **does not apply them** to your current branch.
 
-✅ **Cherry-Pick:** Selectively applies **specific commits** from one branch into another.
+**Cherry-Pick:** Selectively applies **specific commits** from one branch into another.
 
 ---
 
-## **🔥 Scenario 2: Cherry-Picking | Techie's Mindset: A Real-World Scenario**
+## **Scenario 2: Cherry-Picking | Techie's Mindset: A Real-World Scenario**
 
 Imagine you're working on the `r1` branch, and you realize that a **specific bug fix or feature** from the `r2` branch needs to be applied to `r1` without merging the entire `r2`.
 
@@ -258,7 +258,7 @@ git fetch origin
 git log origin/r2 --oneline
 ```
 
-✅ Finds the required commit hash (e.g., `abc123`).
+Finds the required commit hash (e.g., `abc123`).
 
 4. **Cherry-Picks the Commit:**
     
@@ -270,7 +270,7 @@ git log origin/r2 --oneline
 git cherry-pick abc123
 ```
 
-✅ This brings the specific changes from `r2` into `r1`.
+This brings the specific changes from `r2` into `r1`.
 
 5. **Handles Potential Conflicts:**
     
@@ -302,7 +302,7 @@ git status
 git push origin r1
 ```
 
-✅ The specific bug fix or feature is now applied to `r1` without merging the full `r2` branch.
+The specific bug fix or feature is now applied to `r1` without merging the full `r2` branch.
 
 ---
 
