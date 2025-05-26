@@ -5,6 +5,7 @@ seoDescription: "Master AI prompt engineering with this comprehensive guide on c
 datePublished: Mon May 26 2025 08:46:44 GMT+0000 (Coordinated Universal Time)
 cuid: cmb4ufr94000u09li8gth2zmy
 slug: llm-prompting-and-testing
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748249475586/a09beca5-a57b-4802-ade2-ea03a27448c9.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1748249187548/c54e2d1b-938a-4a2d-9539-491bbdf4f71a.png
 tags: ai, software-development, python, testing, qa, chatbot, basics, llm, promptengineering, promptfoo, evals, deepeval
 
