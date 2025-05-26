@@ -66,7 +66,7 @@ These are **not prompt types**, but how the API **structures the interaction**.
 
 ---
 
-## 💡 Prompt Types (Techniques)
+## Prompt Types (Techniques)
 
 | Prompt Type | Example |
 | --- | --- |
@@ -112,7 +112,7 @@ These are **not prompt types**, but how the API **structures the interaction**.
 | `temperature` | 0.0 – 2.0 | Controls randomness | More creative / less deterministic |
 | `top_p` | 0.0 – 1.0 | Probability sampling threshold | Broader token pool = more diversity |
 
-**Pro Tip**: For stable, accurate outputs, set `temperature=0.2` and `top_p=0.9` as a starting point.
+For stable, accurate outputs, set `temperature=0.2` and `top_p=0.9` as a starting point.
 
 ---
 
