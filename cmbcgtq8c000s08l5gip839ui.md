@@ -48,7 +48,7 @@ The first step in threat modeling is to understand the system architecture. You 
 
 Once your architecture is mapped, identify potential threats using structured frameworks.
 
-### 🧠 Use the **STRIDE** Framework:
+### Use the **STRIDE** Framework:
 
 * **S**poofing
     
@@ -133,7 +133,7 @@ In DevSecOps, **security is a shared responsibility**. Threat modeling ensures t
 
 Modern systems use APIs and microservices extensively, which introduces **new challenges**:
 
-### 📉 Microservices Increase:
+### Microservices Increase:
 
 * Attack surfaces (each endpoint can be exploited).
     
