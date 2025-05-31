@@ -209,7 +209,71 @@ Post-modeling, we evaluate and integrate:
 
 ---
 
-## Sample Table: Threat Summary
+## Threat Modeling for APIs
+
+---
+
+### 1\. Understand the API Architecture and Workflow
+
+Identify:
+
+* API Gateway or Proxy
+    
+* Clients (web, mobile, other services)
+    
+* Backend microservices
+    
+* Datastores (DB, cache)
+    
+* Auth mechanisms (OAuth2, JWT, API keys)
+    
+* External dependencies (3rd party APIs)
+    
+
+### 2\. Identify Threats Using STRIDE
+
+| STRIDE | API-Specific Threats | Examples |
+| --- | --- | --- |
+| S | API key or JWT token theft | Impersonation |
+| T | Modify request payload | Malicious inputs |
+| R | Lack of traceability | No logs or tampered logs |
+| I | Sensitive data in responses | PII exposed in JSON |
+| D | Endpoint flooding | Bot attacks |
+| E | Privilege escalation | Access to admin routes |
+
+### 3\. Analyze API Threats
+
+| API Endpoint | Threat | Mitigation |
+| --- | --- | --- |
+| /login | Brute force | CAPTCHA, lockouts, rate limit |
+| /user/{id} | Info disclosure | AuthZ checks, data filtering |
+| /order POST | Tampering | Validate schema, logic checks |
+
+### 4\. Controls & Tools
+
+| Threat | Control | Tool |
+| --- | --- | --- |
+| JWT theft | Short TTL, rotate | Keycloak, Auth0 |
+| Input tampering | Schema validation | OpenAPI, JSON Schema |
+| Sensitive data | Masking, encryption | Vault, TLS, ELK |
+| DoS | Rate limiting | Kong, AWS WAF |
+
+### 5\. Integrate in DevSecOps
+
+* **Design**: Threat model per API
+    
+* **Develop**: Use secure coding and schema enforcement
+    
+* **Build/Test**: SAST/DAST/API tests
+    
+* **Deploy**: Gate on test coverage, use secrets management
+    
+* **Operate**: API observability and alerts
+    
+
+---
+
+### Sample Table: Threat Summary
 
 | Component | Threat | Risk | Control | Owner |
 | --- | --- | --- | --- | --- |
