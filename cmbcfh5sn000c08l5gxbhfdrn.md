@@ -19,7 +19,18 @@ In a world where "shift left" and "secure by design" are buzzwords, Grossman’s
 
 ---
 
-## The Problem: Checklists, Chaos, and Burnout
+## **Drive Enforcement Throughout the SDLC**
+
+Here’s how to integrate your custom ASVS into the dev lifecycle:
+
+| SDLC Phase | ASVS Mapping Strategy |
+| --- | --- |
+| **Requirements** | Feature-level mapping to ASVS controls via questionnaire |
+| **Design** | Run contextual threat modeling against mapped controls |
+| **Development** | Provide “how to” guidance for each ASVS requirement (e.g., password hashing libraries, header settings) |
+| **Testing** | Use ASVS numbers to build checklists, static/dynamic test cases |
+| **Deployment** | Add final checks for deferred items in the Security Backlog |
+| **Post-release** | Track compliance and improvement using the ASVS mapping as baselineThe Problem: Checklists, Chaos, and Burnout |
 
 A large organization attempted to roll out a 50-page secure development lifecycle (SDLC) policy—complete with a monstrous checklist—for every product team.
 
