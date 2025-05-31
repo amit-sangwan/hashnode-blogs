@@ -213,6 +213,8 @@ Post-modeling, we evaluate and integrate:
 
 ---
 
+![The Deployment Architecture of an Enterprise API Management Platform.. -  Vamsi Talks Tech](https://i0.wp.com/www.vamsitalkstech.com/wp-content/uploads/2017/07/APIGateway.png align="left")
+
 ### 1\. Understand the API Architecture and Workflow
 
 Identify:
