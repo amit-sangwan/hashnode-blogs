@@ -14,11 +14,9 @@ Link to the latest revision *( May , 2025 )* : [asvs v5](https://github.com/OWAS
 
 ---
 
-## **OWASP:** The **Open Worldwide Application Security Project** (formerly Open Web Application Security Project )
+### **OWASP:** The Open Worldwide Application Security Project (formerly Open Web Application Security Project )
 
 > *“ It is an open-source organisation that provides global guidelines, tools, and best practices to help improve application security and reduce software vulnerabilities.”*
-
-**Project Top Ten:** The "Top Ten", first published in 2003 and latest is in 2024 , is regularly updated. it aims to raise awareness about application security by identifying some of the most critical risks facing organisation
 
 ---
 
