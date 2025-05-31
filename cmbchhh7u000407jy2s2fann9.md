@@ -6,7 +6,7 @@ datePublished: Sat May 31 2025 17:06:18 GMT+0000 (Coordinated Universal Time)
 cuid: cmbchhh7u000407jy2s2fann9
 slug: threat-modeling-for-modern-saas-platforms
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748710782255/8df0acd2-91e5-4b80-bb70-ddd0e77f9e63.png
-tags: microservices, technology, security, apis, devsecops, cybersecurity-1
+tags: microservices, owasp, technology, security, apis, asvs, devsecops, cybersecurity-1
 
 ---
 
