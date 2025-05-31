@@ -139,3 +139,40 @@ Each requirement follows this format:
 | **Mapping Documents** | Not Needed | Provided | Helps migrate or audit based on older versions. |
 
 ---
+
+### OWASP ASVS v5.0 Chapter List
+
+1. **Architecture, Design, and Threat Modeling Requirements**
+    
+2. **Authentication Verification Requirements**
+    
+3. **Session Management Verification Requirements**
+    
+4. **Access Control Verification Requirements**
+    
+5. **Validation, Sanitization, and Encoding Verification Requirements**
+    
+6. **Stored Cryptography Verification Requirements**
+    
+7. **Error Handling and Logging Verification Requirements**
+    
+8. **Data Protection Verification Requirements**
+    
+9. **Communications Verification Requirements**
+    
+10. **Malicious Code Verification Requirements**
+    
+11. **Business Logic Verification Requirements**
+    
+12. **Files and Resources Verification Requirements**
+    
+13. **API and Web Service Verification Requirements**
+    
+14. **Configuration Verification Requirements**
+    
+
+---
+
+`Note:You can refer to the asvs v5 for a detailed read of chapters, sections and requirements, link is shared on the top!`
+
+---
