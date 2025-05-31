@@ -10,8 +10,7 @@ tags: owasp, technology, opensource, security, asvs, pentesting, cybersecurity-1
 
 ---
 
-**Download the official PDF**:  
-[OWASP\_Application\_Security\_Verification\_Standard\_5.0.0\_en.pdf](https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/OWASP_Application_Security_Verification_Standard_5.0.0_en.pdf)
+**Download the official PDF**: [asvs v5](https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/OWASP_Application_Security_Verification_Standard_5.0.0_en.pdf)
 
 ---
 
