@@ -154,13 +154,13 @@ Here’s how to mitigate auth-related flaws across key ASVS sections:
 
 ## Secure Implementation Patterns
 
-* ✅ **Store tokens securely** (e.g., HTTP-only cookies)
+* **Store tokens securely** (e.g., HTTP-only cookies)
     
-* ✅ **Validate JWT claims**: `iss`, `aud`, `exp`, `scope`
+* **Validate JWT claims**: `iss`, `aud`, `exp`, `scope`
     
-* ✅ **Centralize policy checks** (middleware or gateways)
+* **Centralize policy checks** (middleware or gateways)
     
-* ✅ **Use libraries**: `passport.js`, Spring Security, Auth0 SDKs, OPA
+* **Use libraries**: `passport.js`, Spring Security, Auth0 SDKs, OPA
     
 
 ---
