@@ -1,10 +1,10 @@
 ---
-title: "Owasp Asvs"
+title: "OWASP : Application Security Verification Standard"
 seoTitle: "OWASP ASVS v5.0: Overview & Key Updates"
 seoDescription: "Explore OWASP ASVS v5.0—its scope, structure, assurance levels, and key changes from v4.0. Learn how to apply security requirements effectively for modern w"
 datePublished: Sat May 31 2025 07:12:10 GMT+0000 (Coordinated Universal Time)
 cuid: cmbbw9ezz000308l746mh2fj5
-slug: owasp-asvs
+slug: owasp-application-security-verification-standard
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748674990339/cc1a21b1-2eff-47e8-932f-2b501b6c12f8.png
 tags: owasp, technology, opensource, security, asvs, pentesting, cybersecurity-1, ethicalhacking, appsecdev
 
