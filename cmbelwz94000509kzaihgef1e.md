@@ -99,12 +99,10 @@ F --&gt; G\[Deploy to Production\]
 | Step | Stage | Description & Tools |
 | --- | --- | --- |
 | A | Code Commit | Code pushed triggers automated scans. |
-| B | SAST & SCA | Static code & dependency scans for vulnerabilities.  
-Tools: Snyk,sonarqube |
+| B | SAST & SCA | Static code and dependency scans. Tools: Snyk, Checkov, Trivy |
 | C | Build & Unit Tests | Compile code and run unit tests. |
-| D | Deploy to Staging | Deploy app to staging for testing. |
-| E | DAST Scan | Dynamic scans for runtime vulnerabilities.  
-Tools: OWASP ZAP, Burp Suite |
+| D | Deploy to Staging | Deploy app to staging for further testing. |
+| E | DAST Scan | Dynamic scans for runtime vulnerabilities. Tools: OWASP ZAP, Burp Suite |
 | F | Security Gate | Enforce security policies; block risky deployments. |
 
 ---
