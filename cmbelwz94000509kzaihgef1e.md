@@ -1,10 +1,10 @@
 ---
-title: "SAST, DAST, and SCA in SDLC & CI/CD Pipeline"
+title: "SAST, DAST, and SCA"
 seoTitle: "Security Testing in SDLC & CI/CD Pipeline"
 seoDescription: "Learn about integrating SAST, DAST, and SCA into your SDLC and CI/CD pipeline to enhance software security and minimize vulnerabilities"
 datePublished: Mon Jun 02 2025 04:45:52 GMT+0000 (Coordinated Universal Time)
 cuid: cmbelwz94000509kzaihgef1e
-slug: sast-dast-and-sca-in-sdlc-and-cicd-pipeline
+slug: sast-dast-and-sca
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748838981616/687f0293-921c-44b5-8ee2-7bedd382163c.jpeg
 tags: software-development, technology, security, testing, qa, sdlc, devsecops, sca, cybersecurity-1, sast, dast, securityawareness
 
@@ -98,24 +98,14 @@ F --&gt; G\[Deploy to Production\]
 
 | Step | Stage | Description & Tools |
 | --- | --- | --- |
-| **A** | Code Commit | Developers push code to the repository, triggering automated scans. |
-| **B** | SAST & SCA (FastPass) | \- **SAST**: Static Application Security Testing scans source code for vulnerabilities.  
-\- **SCA**: Software Composition Analysis detects known vulnerabilities and license issues in open-source libraries.  
-\- **FastPass** means quick, early feedback.  
-\- **Tools:** Snyk, Checkov, GitHub Code Scanning, Trivy, ESLint-security. |
-| **C** | Build & Unit Tests | CI pipeline compiles the code and runs automated unit tests to ensure functionality and quality. |
-| **D** | Deploy to Staging | The application is deployed to a staging environment for further testing. |
-| **E** | DAST Scan | Dynamic Application Security Testing runs automated tests against the running app to detect runtime vulnerabilities such as XSS, SQL Injection, and authentication flaws.  
-\- **Tools:** OWASP ZAP, Burp Suite, AppScan. |
-| **F** | Security Gate Check | **A critical decision point that determines if the app is secure enough to proceed to production.**  
-It enforces security policies based on scan results and metrics, such as:  
-• Blocking deployment if critical/high severity vulnerabilities (from SAST, SCA, DAST) exceed a set threshold.  
-• Checking for license compliance violations in OSS components.  
-• Validating compliance with internal or industry security standards (e.g., OWASP ASVS).  
-• Can include automated approval or manual review.  
-This step prevents insecure code from reaching production.  
-**Goal:** Stop risky deployments and ensure security hygiene before release. |
-| **G** | Deploy to Production | Only after passing the security gate, the code is deployed to the live environment. |
+| A | Code Commit | Code pushed triggers automated scans. |
+| B | SAST & SCA | Static code & dependency scans for vulnerabilities.  
+Tools: Snyk,sonarqube |
+| C | Build & Unit Tests | Compile code and run unit tests. |
+| D | Deploy to Staging | Deploy app to staging for testing. |
+| E | DAST Scan | Dynamic scans for runtime vulnerabilities.  
+Tools: OWASP ZAP, Burp Suite |
+| F | Security Gate | Enforce security policies; block risky deployments. |
 
 ---
 
@@ -135,7 +125,6 @@ This step prevents insecure code from reaching production.
         
     * Partial SAST Capabilities (with Snyk Code)
         
-    
 
 #### Zscaler – Cloud Security Platform (Zero Trust)
 
@@ -155,7 +144,7 @@ This step prevents insecure code from reaching production.
     * DLP (Data Loss Prevention)
         
     
-    **Cybersecurity Benefits:**
+    **Benefits:**
     
     * Prevents **data breaches and malware**
         
@@ -182,7 +171,7 @@ This step prevents insecure code from reaching production.
     * RBAC (Role-Based Access Control)
         
     
-    **Cybersecurity Benefits:**
+    **Benefits:**
     
     * Prevents **account takeovers**
         
