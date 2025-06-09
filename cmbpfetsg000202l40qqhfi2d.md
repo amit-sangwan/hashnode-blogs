@@ -154,7 +154,7 @@ Three-tier architecture divides an application into three layers, each with spec
     
 * Administrators connect via **Jump Server** (in public subnet) to securely SSH into backend servers in private subnets.
     
-* AWS Systems Manager (SSM) Session Manager can be an alternative for secure access without opening SSH ports.
+* AWS (SSM) Systems Session Manager can be an alternative for secure access without opening SSH ports.
     
 
 ---
