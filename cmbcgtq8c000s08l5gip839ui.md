@@ -227,6 +227,19 @@ Here are some reliable tools to integrate into your threat modeling workflow:
 
 ---
 
+### **When to Threat Model**
+
+*(Sooner the better , but never be too late )*
+
+* Before the Application is build on the first place, if it already developed then just integrate threat modeling into Agile workflow.
+    
+* Threat modeling integrates into Agile by asking “what are we working on, now, in this sprint/spike/feature?”
+    
+* When the answer is that the system’s architecture isn’t changing, no new processes or dataflows are being introduced, and there are no changes to the data structures being transmitted there is no point of checking what can go wrong.
+    
+* When the system changes, you need to consider the security impact of those changes, and update the threat model and work accordingly
+    
+
 ## Final Thoughts
 
 Threat modeling isn't just a theoretical exercise—it's an essential **DevSecOps discipline**. In API-driven and microservices-heavy architectures, understanding what could go wrong and building defenses from day one is no longer optional—**it's a necessity**.
