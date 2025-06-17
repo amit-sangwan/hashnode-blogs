@@ -176,7 +176,7 @@ We now map each threat to actionable security controls and tools:
     
 * **API Schema Validation** – OpenAPI spec enforcement
     
-* **Secrets Scanning** – `truffleHog`, `gitleaks`
+* **Secrets Scanning** – `truffleHog`, `gitleaks`,ggshield
     
 
 ---
@@ -289,5 +289,7 @@ Identify:
 ## Conclusion
 
 Threat modeling isn't a one-time activity—it’s a continuous process. By integrating DFDs, STRIDE, and mitigations early in the DevSecOps pipeline, we can **proactively identify, track, and mitigate threats** in any modern microservices-based SaaS environment.
+
+Reference Document: [https://owasp.org/www-community/Threat\_Modeling\_Process#step-1-scope-your-work](https://owasp.org/www-community/Threat_Modeling_Process#step-1-scope-your-work)
 
 > ---
