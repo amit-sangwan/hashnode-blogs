@@ -37,8 +37,6 @@ A Secure SDLC involves integrating security into every phase of the software dev
 
 ### 1\. Planning & Design
 
-* Allocate time, resources, and stakeholder commitment for security.
-    
 * Perform secure architecture design and threat modeling.
     
 * Identify supply chain risks and third-party library policies.
@@ -46,7 +44,7 @@ A Secure SDLC involves integrating security into every phase of the software dev
 * Define how authentication, authorization, and data protection will be implemented.
     
 
-**Secure by design:** Includes threat modeling , design review, architecture review even before the development starts, what frameworks we are using, what third party libraries are we using etc. to avoid rework and reduce security risks on later stage.
+**Secure by design:** Includes threat modeling , design review, architecture review even before the development starts, what frameworks we are using, what third party libraries are we using etc. to avoid rework and **minimise attack surface even before any code is written.**
 
 ![Amit Sangwan](https://cdn.hashnode.com/res/hashnode/image/upload/v1750701484589/ba1bb54a-3d96-4c87-9b82-87067f2cf8eb.png align="right")
 
