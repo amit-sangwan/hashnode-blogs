@@ -1,5 +1,5 @@
 ---
-title: "Building Sustainable Security Requirements with OWASP ASVS"
+title: "Building Sustainable Security Requirements with OWASP ASVS | NDC Conference"
 seoTitle: "Sustainable Security with OWASP ASVS"
 seoDescription: "Learn how to make OWASP ASVS practical and sustainable for secure software development without overwhelming developers"
 datePublished: Sat May 31 2025 16:10:04 GMT+0000 (Coordinated Universal Time)
