@@ -6,7 +6,7 @@ datePublished: Mon Jun 23 2025 17:34:43 GMT+0000 (Coordinated Universal Time)
 cuid: cmc9dmm07000h02lg5wcaf09o
 slug: building-a-secure-sdlc
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750699963441/ef16228b-e869-448d-9886-de58045c0224.png
-tags: owasp, software-development, technology, sdlc, appsec, quality-engineering
+tags: owasp, software-development, technology, sdlc, appsec, quality-engineering, blueteam
 
 ---
 
