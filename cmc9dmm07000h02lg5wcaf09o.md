@@ -6,7 +6,7 @@ datePublished: Mon Jun 23 2025 17:34:43 GMT+0000 (Coordinated Universal Time)
 cuid: cmc9dmm07000h02lg5wcaf09o
 slug: building-a-secure-sdlc
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750699963441/ef16228b-e869-448d-9886-de58045c0224.png
-tags: owasp, software-development, sdlc, appsec, quality-engineering
+tags: owasp, software-development, technology, sdlc, appsec, quality-engineering
 
 ---
 
@@ -116,21 +116,21 @@ Security tools exist at every stage of the SDLC — ranging from open-source to 
 
 ### Planning & Design
 
-* Threat Modeling: IriusRisk, Microsoft Threat Modeling Tool
+* Threat Modeling: Owasp Threat Dragon, Microsoft Threat Modeling Tool
     
 * Maturity Models: [OWASP SAMM](https://owaspsamm.org), [BSIMM](https://bsimm.com)
     
 
 ### Development
 
-* SAST: Fortify, Veracode, Coverity, Bandit (Python)
+* SAST: Snyk, Bandit (Python)
     
-* SCA: Snyk, Black Duck, Sonatype, FOSSA
+* SCA: Snyk, Black Duck
     
 
 ### Testing
 
-* DAST: WebInspect, Burp Suite, Acunetix
+* DAST: Burp Suite, Acunetix
     
 * Pen Testing: OWASP ZAP, manual testing with guidance from OWASP Testing Guide
     
