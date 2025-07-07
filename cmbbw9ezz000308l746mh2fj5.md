@@ -26,6 +26,8 @@ The **OWASP Application Security Verification Standard (ASVS)** is a comprehensi
 
 It serves as an essential resource for developers, architects, and security professionals looking to design, develop, test, and maintain secure software.
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1751918049592/3d4534a7-4673-4e20-80dc-c86d5ff49525.png align="center")
+
 ---
 
 ## Scope of the ASVS
@@ -57,10 +59,12 @@ ASVS uses a **three-level model** to provide varying degrees of assurance depend
     
 * **Level 2**: ~70% of total requirements (includes all of Level 1 + Level 2).
     
-* **Level 3**: Final ~30%. Suitable for high-security, regulated environments.
+* **Level 3**: Final ~30%. Suitable for high-security, regulated environment.
+    
+    ![]( align="center")
     
 
-> **Note:** Select your level based on your application's sensitivity and threat model. A startup may start with Level 1, while a bank must aim for Level 3.
+**Note:** Select your level based on your application's sensitivity and threat model. A startup may start with Level 1, while a bank must aim for Level 3.
 
 ---
 
