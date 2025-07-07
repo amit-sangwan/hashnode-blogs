@@ -16,6 +16,8 @@ The focus has shifted from malware-heavy tactics to **malware-free intrusions**,
 
 ## Key Trends and What They Mean for Defenders
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1751921994116/38225fa9-7285-4945-a2a9-653463289982.png align="center")
+
 ### 1\. Adversaries Are Operating Faster Than Ever
 
 * **Breakout time** (time from initial access to lateral movement) dropped to an average of **48 minutes**, with the fastest observed at **51 seconds**.
@@ -43,6 +45,8 @@ The focus has shifted from malware-heavy tactics to **malware-free intrusions**,
         
     * Enforce **just-in-time remote access** policies.
         
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1751922113316/e0bd5d68-e282-4f63-8a83-7444df989978.png align="left")
 
 ---
 
@@ -121,4 +125,6 @@ Tightly control who can install software or access sensitive systems. Watch for 
 
 ---
 
-Access the full report here: [CrowdStrike 2025 Global Threat Report](https://www.crowdstrike.com/en-us/global-threat-report/)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1751922394023/3cc903d5-6bce-4bfa-a94f-02dc15228bdf.png align="center")
+
+`Access the full report here:` [`CrowdStrike 2025 Global Threat Report`](https://www.crowdstrike.com/en-us/global-threat-report/)
