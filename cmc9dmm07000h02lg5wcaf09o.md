@@ -1,5 +1,5 @@
 ---
-title: "Building a Secure SDLC"
+title: "Practicing Secure SDLC"
 seoTitle: "Secure SDLC Best Practices"
 seoDescription: "Integrate security into every phase of development with a Secure SDLC, reducing risks and building resilient applications from the start"
 datePublished: Mon Jun 23 2025 17:34:43 GMT+0000 (Coordinated Universal Time)
