@@ -46,8 +46,6 @@ The focus has shifted from malware-heavy tactics to **malware-free intrusions**,
     * Enforce **just-in-time remote access** policies.
         
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1751922113316/e0bd5d68-e282-4f63-8a83-7444df989978.png align="left")
-
 ---
 
 ### 3\. AI Is Helping Hackers
