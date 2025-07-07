@@ -128,52 +128,38 @@ Each requirement follows this format:
 
 ## OWASP ASVS v4.0.3 vs v5.0.0 – Summary of Changes
 
-| **Aspect** | **ASVS v4.0.3** | **ASVS v5.0.0** | **Remarks** |
-| --- | --- | --- | --- |
-| **Unchanged** | – | 11 | Only 11 requirements remained untouched. |
-| **Grammatical Edits Only** | – | 15 | Minor wording updates without changing meaning. |
-| **Removed** | – | 109 | Cleaned up and simplified. |
-| ➤ Deleted | – | 50 | Obsolete or no longer relevant. |
-| ➤ Duplicates | – | 28 | Removed due to repetition. |
-| ➤ Merged | – | 31 | Combined with other controls. |
-| **New/Revised** | – | Majority | Most controls were updated for clarity and coverage. |
-| **Requirement IDs** | Fixed | Reorganized | All IDs renumbered and grouped by context. |
-| **Mapping Documents** | Not Needed | Provided | Helps migrate or audit based on older versions. |
+| Area | v4.x | v5.0 |
+| --- | --- | --- |
+| **Business Logic** | Part of Access Control / General | Split into **V2** with validation |
+| **API Security** | Spread across categories | Now has dedicated **V4** |
+| **OAuth/OIDC** | Was in Authentication | Now has dedicated **V10** |
+| **JWT** | Was in Cryptography or Auth | Now under **V9** (Self-contained Tokens) |
+| **Secure Frontend** | Minimal coverage | Now a full chapter **V3** |
+| **WebRTC** | Not covered | New in **V17** |
 
 ---
 
 ### OWASP ASVS v5.0 Chapter List
 
-1. **Architecture, Design, and Threat Modeling Requirements**
-    
-2. **Authentication Verification Requirements**
-    
-3. **Session Management Verification Requirements**
-    
-4. **Access Control Verification Requirements**
-    
-5. **Validation, Sanitization, and Encoding Verification Requirements**
-    
-6. **Stored Cryptography Verification Requirements**
-    
-7. **Error Handling and Logging Verification Requirements**
-    
-8. **Data Protection Verification Requirements**
-    
-9. **Communications Verification Requirements**
-    
-10. **Malicious Code Verification Requirements**
-    
-11. **Business Logic Verification Requirements**
-    
-12. **Files and Resources Verification Requirements**
-    
-13. **API and Web Service Verification Requirements**
-    
-14. **Configuration Verification Requirements**
-    
-
----
+| # | **Chapter** | **Focus Area** |
+| --- | --- | --- |
+| **V1** | **Encoding and Sanitization** | Output encoding, sanitization of untrusted data (XSS, injection prevention). |
+| **V2** | **Validation and Business Logic** | Input validation and enforcing business logic rules. |
+| **V3** | **Web Frontend Security** | Secure JavaScript, DOM-based security, CSP, client-side controls. |
+| **V4** | **API and Web Service** | REST, GraphQL, SOAP, versioning, throttling, schema validation. |
+| **V5** | **File Handling** | Uploads, downloads, media types, file type validation. |
+| **V6** | **Authentication** | Login, MFA, password policies, account management. |
+| **V7** | **Session Management** | Cookie flags, session ID protection, timeouts, logout behavior. |
+| **V8** | **Authorization** | RBAC, ABAC, vertical/horizontal access control, enforcement. |
+| **V9** | **Self-contained Tokens** | JWT, token integrity, expiry, audience, signing. |
+| **V10** | **OAuth and OIDC** | Authorization flows, token management, consent, scopes. |
+| **V11** | **Cryptography** | Storage, transmission, algorithms, keys, hashing. |
+| **V12** | **Secure Communication** | HTTPS, TLS, HSTS, certificate pinning, secure headers. |
+| **V13** | **Configuration** | Secure defaults, environment hardening, secrets, patching. |
+| **V14** | **Data Protection** | Data classification, retention, minimization, masking. |
+| **V15** | **Secure Coding and Architecture** | Design principles, threat modeling, secure SDLC, code practices. |
+| **V16** | **Security Logging and Error Handling** | Auditable logs, tamper detection, error response hygiene. |
+| **V17** | **WebRTC** | (New) Real-time communication security, media access, signaling. |
 
 `Note:You can refer to the asvs v5 for a detailed read of chapters, sections and requirements, link is shared on the top!`
 
