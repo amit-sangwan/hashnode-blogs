@@ -59,12 +59,10 @@ ASVS uses a **three-level model** to provide varying degrees of assurance depend
     
 * **Level 2**: ~70% of total requirements (includes all of Level 1 + Level 2).
     
-* **Level 3**: Final ~30%. Suitable for high-security, regulated environment.
+* **Level 3**: Final ~30%. Suitable for high-security, regulated environmen
     
-    ![]( align="center")
+    **Note:** Select your level based on your application's sensitivity and threat model. A startup may start with Level 1, while a bank must aim for Level 3.
     
-
-**Note:** Select your level based on your application's sensitivity and threat model. A startup may start with Level 1, while a bank must aim for Level 3.
 
 ---
 
